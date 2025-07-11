@@ -75,3 +75,14 @@ This Python script allows users to fetch and display information from a public S
 - Gracefully handles HTTP errors and invalid requests.
 
 ---
+
+### 7. **Strings & List Operations** | `transaction_analyzer.py`
+
+This Python program manages a list of financial transactions (deposits and withdrawals) and provides options to:
+
+**Features:**
+- Print a summary of total deposits, withdrawals, and current balance.
+- Analyze transactions to find largest deposits/withdrawals and calculate average amounts.
+- Stop the program gracefully.
+
+---
