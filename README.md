@@ -15,7 +15,19 @@ This beginner-friendly Python script practices user input by simulating a short 
 
 ---
 
-### 2. **Flow Control** | `todo_list.py`
+### 2. **Flow Control** | `rock_paper_scissors.py`
+
+A simple command-line rock-paper-scissors game where a player competes against the computer.
+
+**Features:**
+- Best-of-three format (first to 2 wins)  
+- User inputs move; computer selects randomly  
+- Round-by-round results and score updates  
+- Final message declares the overall winner  
+
+---
+
+### 2. **Lists** | `todo_list.py`
 
 This Python script is a basic command-line To-Do list manager.
 
@@ -25,18 +37,6 @@ This Python script is a basic command-line To-Do list manager.
 - Remove the last task  
 - Exit the program  
 - Dynamic display of tasks and numbered menu interaction  
-
----
-
-### 3. **Lists** | `rock_paper_scissors.py`
-
-A simple command-line rock-paper-scissors game where a player competes against the computer.
-
-**Features:**
-- Best-of-three format (first to 2 wins)  
-- User inputs move; computer selects randomly  
-- Round-by-round results and score updates  
-- Final message declares the overall winner  
 
 ---
 
@@ -84,5 +84,30 @@ This Python program manages a list of financial transactions (deposits and withd
 - Print a summary of total deposits, withdrawals, and current balance.
 - Analyze transactions to find largest deposits/withdrawals and calculate average amounts.
 - Stop the program gracefully.
+
+---
+
+### 8. **Object-Oriented Programming** | `library_system.py`
+
+This Python script defines a basic object-oriented library system using two classes: `Book` and `Library`. It allows for managing a collection of books, checking books in and out, and displaying book information.
+
+**Features:**
+- Define individual books with title, author, and availability status
+- Add books to a library collection
+- Retrieve books by title (case-insensitive)
+- Display all books in the collection with their current status
+- Supports checking out and returning books
+
+---
+
+### 9. **Working With Private APIs** | `openai_chat_cli.py`
+
+This Python script is a command-line interface for chatting with OpenAI's API via Mimo's endpoint. It supports threaded conversations, allowing users to continue or start new conversations easily.
+
+**Features:**
+- Start and continue threaded conversations
+- Use exit to quit, and new to start a new thread
+- Keeps track of unique thread IDs
+- Uses environment variable MIMO_OPENAI_API_KEY for secure API access
 
 ---
